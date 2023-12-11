@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+          <!-- Tabs Titles -->
+          
+          <h2 class="tituloform">SISTEMA NEGOCIOS</h2>
+      
+          <!-- Icon -->
+          <div class="fadeIn first">
+            <!-- <img src="" id="icon" alt="USUARIO" /> -->
+          </div>
+      
+          <form  action="{{ url_for('login') }}" method="post">
+            <input type="text" id="login" class="fadeIn second" name="login" placeholder="usuario">
+            <input type="password" id="password" class="fadeIn third" name="login" placeholder="clave">
+            <input type="submit" class="fadeIn fourth" value="Entrar">
+          </form>
+      
+        </div>
+      </div>
+</body>
+</html>
